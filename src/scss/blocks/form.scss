@@ -1,4 +1,8 @@
 .word {
   font-size: 27px;
-  background: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  color: var(--color-text);
 }
