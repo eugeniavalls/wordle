@@ -69,11 +69,12 @@ const correctWord = event => {
       if (!aleatoryWord.includes(event.target.text.value[i])) {
         letters.children[counter].children[i].classList.add('letter--gray');
       }
-      if (
-        aleatoryWord.includes(event.target.text.value[i]) &&
-        event.target.text.value[i] !== aleatoryWord[i]
-      ) {
+      if (aleatoryWord.includes(event.target.text.value[i])) {
         letters.children[counter].children[i].classList.add('letter--yellow');
+        letters.children[counter].children[i].replace(
+          event.target.text.value[i],
+          '/'
+        );
       }
     }
   }
