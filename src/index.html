@@ -13,38 +13,58 @@
     <title>Wordle</title>
   </head>
   <body>
-    <main class="main">
+    <main class="main" id="main">
       <h1 class="title">WORDLE</h1>
       <div class="letters" id="letters">
-        <!-- <p class="letter letter--gray" id="letter">g</p>
-        <p class="letter letter--green" id="letter">a</p>
-        <p class="letter letter--yellow" id="letter">t</p>
-        <p class="letter" id="letter">o</p>
-        <p class="letter" id="letter">s</p>
-        <p class="letter" id="letter">g</p>
-        <p class="letter" id="letter">a</p>
-        <p class="letter" id="letter">t</p>
-        <p class="letter" id="letter">o</p>
-        <p class="letter" id="letter">s</p>
-        <p class="letter" id="letter">g</p>
-        <p class="letter" id="letter">a</p>
-        <p class="letter" id="letter">t</p>
-        <p class="letter" id="letter">o</p>
-        <p class="letter" id="letter">s</p>
-        <p class="letter" id="letter">g</p>
-        <p class="letter" id="letter">a</p>
-        <p class="letter" id="letter">t</p>
-        <p class="letter" id="letter">o</p>
-        <p class="letter" id="letter">s</p>
-        <p class="letter" id="letter">g</p>
-        <p class="letter" id="letter">a</p>
-        <p class="letter" id="letter">t</p>
-        <p class="letter" id="letter">o</p>
-        <p class="letter" id="letter">s</p> -->
+        <div class="container-letter">
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+        </div>
+
+        <div class="container-letter">
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+        </div>
+
+        <div class="container-letter">
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+        </div>
+
+        <div class="container-letter">
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+        </div>
+
+        <div class="container-letter">
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+        </div>
       </div>
       <form class="form" id="form">
-        <input class="word" type="text" placeholder="type your solution" />
+        <input
+          class="word"
+          name="text"
+          type="text"
+          placeholder="type your solution"
+        />
       </form>
+      <p id="alert"></p>
     </main>
     <script type="module" src="./js/index.js"></script>
   </body>
