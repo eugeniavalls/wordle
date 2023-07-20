@@ -69,12 +69,19 @@ const correctWord = event => {
       if (!aleatoryWord.includes(event.target.text.value[i])) {
         letters.children[counter].children[i].classList.add('letter--gray');
       }
-      if (aleatoryWord.includes(event.target.text.value[i])) {
+      // const letra = event.target.text.value[i];
+      // const wordToCheck = aleatoryWord
+      // if(wordToCheck.includes(letra)){
+      //   letters.children[counter].children[i].classList.add('letter--yellow');
+      //   wordToCheck = wordToCheck.replace(letra, '/');
+      // }
+      if (aleatoryWord.includes(event.target.text.value[i] && event.target.text.value[i] !== aleatoryWord[i])) {
         letters.children[counter].children[i].classList.add('letter--yellow');
-        letters.children[counter].children[i].replace(
-          event.target.text.value[i],
-          '/'
-        );
+        // letters.children[counter].children[i].replace(
+        //   event.target.text.value[i],
+        //   '/'
+        // );
+        // aleatoryWord = aleatoryWord[i].replace(event.target.text.value[i], '/')
       }
     }
   }
