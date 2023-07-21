@@ -13,8 +13,6 @@ import '../scss/styles.scss';
 // Si la letra está pero no en la posición correcta que se pinte de amarillo (recorriendo)
 // Crear animaciones
 
-// cuando tu añades una clase tienes que quitar las anteriores
-
 const mainElement = document.getElementById('main');
 const letters = document.getElementById('letters');
 const form = document.getElementById('form');
@@ -60,29 +58,27 @@ const textWrite = event => {
 };
 
 const correctWord = event => {
+  let wordToCheck = aleatoryWord;
   for (let i = 0; i < 5; i++) {
+    const letra = event.target.text.value[i];
     if (event.target.text.value[i] === aleatoryWord[i]) {
       letters.children[counter].children[i].classList.add('letter--green');
+      wordToCheck = wordToCheck.replace(letra, '/');
+    }
+  }
+
+  for (let i = 0; i < 5; i++) {
+    if (!wordToCheck.includes(event.target.text.value[i])) {
+      letters.children[counter].children[i].classList.add('letter--gray');
     }
 
-    for (let i = 0; i < 5; i++) {
-      if (!aleatoryWord.includes(event.target.text.value[i])) {
-        letters.children[counter].children[i].classList.add('letter--gray');
-      }
-      // const letra = event.target.text.value[i];
-      // const wordToCheck = aleatoryWord
-      // if(wordToCheck.includes(letra)){
-      //   letters.children[counter].children[i].classList.add('letter--yellow');
-      //   wordToCheck = wordToCheck.replace(letra, '/');
-      // }
-      if (aleatoryWord.includes(event.target.text.value[i] && event.target.text.value[i] !== aleatoryWord[i])) {
-        letters.children[counter].children[i].classList.add('letter--yellow');
-        // letters.children[counter].children[i].replace(
-        //   event.target.text.value[i],
-        //   '/'
-        // );
-        // aleatoryWord = aleatoryWord[i].replace(event.target.text.value[i], '/')
-      }
+    if (
+      !letters.children[counter].children[i].classList.contains(
+        'letter--green'
+      ) &&
+      !letters.children[counter].children[i].classList.contains('letter--gray')
+    ) {
+      letters.children[counter].children[i].classList.add('letter--yellow');
     }
   }
 };
