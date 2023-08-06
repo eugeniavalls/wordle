@@ -1,19 +1,24 @@
-# Título del proyecto
+# WORDLE. PRÁCTICA CON JAVASCRIPT
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica7-puente/main/src/assets/screenshots/01.png)
 
 ## Ejemplo en vivo
 
-- [URL-de-github-pages-de-este-proyecto](URL-de-github-pages-de-este-proyecto)
-- [URL-de-la-api](URL-de-la-api)
+- [Vista en vivo](https://eugeniavalls.github.io/wordle/)
 
 ## Descripción 📑
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
-
-## ¿Qué he aprendido en este proyecto? 🙇🏻
-
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Ejercicio para poner en práctica JavaScript. 
+Realizar primero el CSS.
+Crear un array con palabras de cinco letras.
+Sacar una palabra aleatoria del array.
+Si la palabra que escribo contiene menos 5 letras o mas de 5 que salte un aviso de que la palabra debe contener 5 letras.
+Hacer que el texto que yo meta en el form se pinte en el grid.
+Hacer que cada vez que yo pinte una palabra se añada a la línea de bajo de la anterior.
+Si la letra está en la posición correcta que se pinte verde (recorriendo).
+Verificar que la palabra que yo meta si las letras no están se pinten en gris (recorriendo).
+Si la letra está pero no en la posición correcta que se pinte de amarillo (recorriendo).
+Crear animaciones.
 
 ## Tecnologías 🛠
 
@@ -22,21 +27,27 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://es.wikipedia.org/wiki/HTML5)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
 [![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://es.wikipedia.org/wiki/JavaScript)
+<a href="https://getbem.com/">
+<img src="http://jennyknuth.com/wp-content/uploads/2018/03/BEM-1.png" target="_blank" rel="noreferrer" width="40" height="40" alt="BEM metodology">
+<a href="https://sass-lang.com/">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png" target="_blank" rel="noreferrer" width="40" alt="BEM metodology">
+</a>
+</a>
 
 ## Vista previa del proyecto
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/wordle/main/screenshots/01.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/wordle/main/screenshots/02.png)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/wordle/main/screenshots/03.png)
 
 ## Autor ✒️
 
-**TU NOMBRE**
+**EUGENIA VALLS ALFARO**
 
-- [micorreo@midominio.com](micorreo@midominio.com)
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
+- [Correo electrónico](e.vallsalfaro@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/eugenia-valls-alfaro-540b1a20a)
 - [Porfolio web](https://tu-dominio.com/)
 
 ## Instalación
